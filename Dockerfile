@@ -97,11 +97,3 @@ RUN chmod +x /helper.sh
 
 #   This will drop you in a shell by default.
 CMD ["/helper.sh"]
-
-
-#ENTRYPOINT [ "/bin/bash", "-l", "-c" ]
-
-#   docker build . -t espat
-#   docker run -it espat /bin/bash
-
-#   docker run -it -v ~/dev/myfolder:/esp/esp-at/build/factory espat /bin/bash
