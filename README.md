@@ -7,7 +7,7 @@ Espressif's documentation for building seems to leave out a few things and I wan
 
 Please note I'm not an Ubuntu/Linux expert and there are far cleaner ways to accomplish some of the things you see below, but this works, and it works for me.  I'm sharing this to save someone else several hours of time that just wants to get to the fun stuff and try things out.  
 
-If you have a pull request that cleans it up and makes it a bit cleaner, feel free to contribute.  My time is limited but will try to test our your change.
+If you have a pull request that cleans it up and makes it a bit cleaner, feel free to contribute.  My time is limited but will try to test out your change.
 
 
 ## Installation
