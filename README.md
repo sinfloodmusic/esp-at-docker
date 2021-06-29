@@ -9,7 +9,7 @@ Please note I'm not an Ubuntu/Linux expert and there are far cleaner ways to acc
 
 If you have a pull request that cleans it up and makes it a bit cleaner, feel free to contribute.  My time is limited but will try to test out your change.
 
-Shameless Plug: We're working on music related projects all the time, but we do make music too!  If you like Rock and Roll with with synths and Drum Machines mixed in, check us out here [Sinflood](https://soundcloud.com/sinflood).  We're also on Facebook at [Sinflood](https://www.facebook.com/sinfloodmusic)
+Shameless Plug: We're working on music related projects all the time, but we do make music too!  If you like rock with synths and drum machines mixed in, check us out here [Sinflood](https://soundcloud.com/sinflood).  We're also on Facebook at [Sinflood](https://www.facebook.com/sinfloodmusic)
 
 ## Installation
 
