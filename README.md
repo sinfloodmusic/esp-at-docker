@@ -56,6 +56,6 @@ It will go pretty fast in most cases because you paid for that up front with the
 
 On build completion, your firmware will be in the container at ```/esp/esp-at/build/factory``` and if you mounted a volume to your host (like ```/tmp```) you'll see it built there.  If you didn't, you'll either need to do some curl gymnastics to get it out, or restart and map a volume to your container.
 
-You can now flash your firmware.  I'm using ```esptool.py``` that I built using the standard esp-if installation process.
+You can now flash your firmware.  I'm using ```esptool.py``` that I built using the standard esp-if installation process.  This container will not help you flash your firmware, it will just help you build it.
 
 Note: When you configure the firmware, the output file that matters is called ```sdkconfig``` and is located here ```/esp/esp-at/sdkconfig```.  If you want a repeatable process, you'll want to keep that file as it will get blown away the next time you restart your container.
