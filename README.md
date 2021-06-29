@@ -1,5 +1,5 @@
 # Overview
-esp-at-docker is a docker project you can use to build the  [esp-at firmware](https://github.com/espressif/esp-at) with a low amount of effort.  Basically AT-Firmware turns your ESP32 into a modem, taking ```AT``` type commands and connecting to WiFI, Bluetooth LE, Classic Bluetooth (disabled by default!), and other things.  
+esp-at-docker is a docker project you can use to build the  [esp-at firmware](https://github.com/espressif/esp-at) with a low amount of effort.  Basically AT-Firmware turns your ESP32 into a modem, taking ```AT``` type commands and connecting to WiFi, Bluetooth LE, Classic Bluetooth (disabled by default!), and other things.  
 
 This is super useful if you want to just us RX/TX pins on a Serial Port on your MCU and add wireless or other capabilities.  You can even update the firmware to use SPI for these interactions so they're much faster than standard serial.  Depends on the speed you need.
 
