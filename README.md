@@ -44,7 +44,7 @@ docker run -it -v /tmp:/esp/esp-at/build/factory espat
 
 On launch, a helper script (```helper.sh```) will give you some direction on what to do.
 
-If you run ```cd /esp/esp-at && ./build.py menuconfig``` it will launch the ```menuconfig``` which is an ncurses graphical environment where you can select the components you want as well as other configuration for your final fimrware build.  Once you are happy, save and exit. 
+If you run ```cd /esp/esp-at && ./build.py menuconfig``` it will launch the ```menuconfig``` which is an ncurses graphical environment where you can select the components you want as well as other configuration for your final firmware build.  Once you are happy, save and exit. 
 
 You'll then be at the prompt in the container.  You can build your firmware with the following command:
 
@@ -56,6 +56,6 @@ It will go pretty fast in most cases because you paid for that up front with the
 
 On build completion, your firmware will be in the container at ```/esp/esp-at/build/factory``` and if you mounted a volume to your host (like ```/tmp```) you'll see it built there.  If you didn't, you'll either need to do some curl gymnastics to get it out, or restart and map a volume to your container.
 
-You can now flash your firmware.  I'm using ```esptool.py``` that I build using the standard esp-if installation process.
+You can now flash your firmware.  I'm using ```esptool.py``` that I built using the standard esp-if installation process.
 
 Note: When you configure the firmware, the output file that matters is called ```sdkconfig``` and is located here ```/esp/esp-at/sdkconfig```.  If you want a repeatable process, you'll want to keep that file as it will get blown away the next time you restart your container.
