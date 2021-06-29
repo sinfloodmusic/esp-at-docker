@@ -36,7 +36,7 @@ docker build . -t espat
 
 After that you can run this Docker image (interactively ```-it```) and configure the firmware however you would like.  However, you need to make sure you map a local volume from your host computer into the Docker container, or it will build and you won't be able to get it out.  :)
 
-Mapping to /esp/esp-at/build/factory will dump the firmware into your firmware into /tmp/mycomputer on your local machine.  You can also map somewhere else and simply copy the firmware to that mount point if you like.
+Mapping using the command below (to /esp/esp-at/build/factory) will dump the firmware into your /tmp/mycomputer on your local machine.  You can also map somewhere else and simply copy the firmware to that mount point if you like.
 
 ```
 docker run -it -v /tmp:/esp/esp-at/build/factory espat
